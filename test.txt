@@ -1,0 +1,2 @@
+2024-06-17	12:34	Store1	Item1	10.99	Credit
+2024-06-17	13:45	Store2	Item2	15.99	Cash
