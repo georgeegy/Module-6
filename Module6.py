@@ -2,12 +2,12 @@ from datetime import datetime
 from datetime import timedelta
 
 # Part 1
-# import sys
-# for line in sys.stdin:
-#     data = line.strip().split("\t")
-#     if len(data) == 6:
-#         date, time, store, item, cost, payment = data
-#         print("{0}\t{1}".format(item, cost))
+import sys
+for line in sys.stdin:
+    data = line.strip().split("\t")
+    if len(data) == 6:
+        date, time, store, item, cost, payment = data
+        print("{0}\t{1}".format(item, cost))
 
 # Part 2: subtract 60 sec
 new_time = datetime.now() - timedelta(seconds=60)
